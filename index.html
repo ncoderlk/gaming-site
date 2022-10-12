@@ -10,28 +10,21 @@
   <title>Nithila War</title>
 </head>
 
-<body>
-  <div id="app" class="text-center w-full h-full min-h-screen bg-cover bg-scrol bg-no-repeat">
+<body class="bg-fixed bg-cover">
+  <div id="app" class="text-center w-full h-full min-h-screen">
     <!-- Navigation Bar Started -->
-    <nav id="navbar"></nav>
+    <nav id="navbar" class="fixed z-10 left-0 top-0 w-full"></nav>
     <!-- Navigation Bar Ended -->
     <!-- Home section started -->
-    <section id="home">
-      <div id="intro-sec" class="intro-video hidden">
-        <button id="video-close" class="close">
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
-        <iframe src="https://www.youtube.com/embed/eM7ZTQHAXwg" title="FOLLOW US (NITHILA WAR)" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen class="mx-auto box-content"></iframe>
-      </div>
-    </section>
+    <section id="home" class="min-h-screen w-full"></section>
     <!-- Home section ended -->
+    <!-- About section started -->
+    <section id="about" class="min-h-screen w-full"></section>
+    <!-- About section ended -->
   </div>
-  <script src="./js/navbar.js"></script>
-  <script src="./js/home.js"></script>
+  <script src="./js/pages/navbar.js"></script>
+  <script src="./js/pages/home.js"></script>
+  <script src="./js/pages/about.js"></script>
   <script src="./js/user.js"></script>
 </body>
 

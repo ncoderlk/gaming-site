@@ -15,7 +15,7 @@ document.getElementById("navbar").innerHTML = (
       </button>
     </div>
   </div>
-  <div id="menu" class="z-10 flex rounded-xl flex-col fixed right-4 top-24 bg-blur_blue h-2/3 p-10 box-content  justify-center items-center">
+  <div id="menu" class="z-10 flex rounded-xl flex-col fixed right-4 top-24 bg-blur_blue h-1/2 p-10 box-content  justify-center items-center">
     <div class="logo">
       <img src="./images/avatar-un.png" alt="Avatar" class="w-28 rounded-full" />
       <span id="user" class="text-neon font-bold">Unknown User</span>
@@ -26,7 +26,7 @@ document.getElementById("navbar").innerHTML = (
       <a class="text-white hover:text-gray-400 pt-2" href="/service">Service</a>
       <a class="text-white hover:text-gray-400 pt-2 pb-2" href="/contact">Contact</a>
     </div>
-    <button class="w-28 h-16 border-neon border-2 text-neon m-2 p-2 box-content hover:bg-neon btn-bx-shd hover:text-blur_blue  hover:border-black rounded-full">Login</button>
+    <button onclick="login()" id="login-btn" class="w-28 h-8 border-neon border-2 text-neon m-2 p-2 box-content hover:bg-neon btn-bx-shd hover:text-blur_blue  hover:border-black rounded-full ">Login</button>
   </div>
 </nav>`
 )
