@@ -5,10 +5,3 @@ document.getElementById("home").innerHTML += (`
   <a href="https://www.youtube.com/embed/eM7ZTQHAXwg" target="_blank" class="venobox play-btn mb-4 mx-auto" data-vbtype="video" id="ply-btn" data-autoplay="true"></a>
   <a href="#about" class="about-btn">Explore</a>
 </div>`)
-
-const ply_btn = document.getElementById("ply-btn")
-
-ply_btn.addEventListener("click", () => {
-  document.getElementById("home-sec").classList.toggle("hidden")
-  document.getElementById("intro-sec").classList.toggle("hidden")
-})
