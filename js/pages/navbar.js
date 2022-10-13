@@ -21,10 +21,10 @@ document.getElementById("navbar").innerHTML = (
       <span id="user" class="text-neon font-bold">Unknown User</span>
     </div>
     <div class="flex flex-col mt-5 mb-5 border-t-2 border-b-2 border-white">
-      <a class="text-white hover:text-gray-400 pt-2" href="/home">Home</a>
-      <a class="text-white hover:text-gray-400 pt-2" href="/about">About</a>
-      <a class="text-white hover:text-gray-400 pt-2" href="/service">Service</a>
-      <a class="text-white hover:text-gray-400 pt-2 pb-2" href="/contact">Contact</a>
+      <a class="text-white hover:text-gray-400 pt-2" href="#home">Home</a>
+      <a class="text-white hover:text-gray-400 pt-2" href="#about">About</a>
+      <a class="text-white hover:text-gray-400 pt-2" href="#video">Videos</a>
+      <a class="text-white hover:text-gray-400 pt-2 pb-2" href="#contact">Contact</a>
     </div>
     <button onclick="login()" id="login-btn" class="w-28 h-8 border-neon border-2 text-neon m-2 p-2 box-content hover:bg-neon btn-bx-shd hover:text-blur_blue  hover:border-black rounded-full ">Login</button>
   </div>
