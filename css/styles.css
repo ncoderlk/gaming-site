@@ -920,6 +920,21 @@ input {
   margin: auto;
 }
 
+#contact .rate .ratebox {
+  min-width: 66px;
+  max-width: 66px;
+  min-height: 66px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  box-shadow: var(--sm-box-shadow);
+  background-color: #ccc;
+}
+
+#contact .rate .ratebox.star {
+  background-color: gold;
+  animation: rotate 0.5s ease-in-out alternate;
+}
+
+
 #videos iframe {
   width: 300px;
   height: auto;
@@ -933,4 +948,123 @@ input {
   font-weight: bolder;
   color: #ff004c;
   padding-bottom: 40px;
+}
+
+#contact .rate {
+  display: flex;
+  flex-direction: row;
+}
+
+#rate-mark hr {
+  width: 25px;
+  margin: auto;
+  color: #777;
+}
+
+#rate-mark {
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #777;
+}
+
+form {
+  background-color: #00002e75;
+  width: max-content;
+  margin: auto;
+  height: 60vh;
+  min-height: 60vh;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: var(--sm-box-shadow);
+  max-width: max-content;
+  color: #fff;
+}
+
+form button {
+  width: 120px;
+  height: 45px;
+  border-radius: 20px;
+  border: 2px solid #ff004c;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  margin: auto;
+}
+
+form button:hover {
+  width: 120px;
+  height: 45px;
+  border-radius: 20px;
+  box-shadow: var(--md-box-shadow);
+  background: #00002e75;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+form input,
+textarea {
+  width: 300px;
+  background-color: transparent;
+  resize: none;
+  text-align: center;
+  margin: auto;
+  border: 2px solid #ff004c;
+  padding: 0;
+}
+
+form input:user-invalid {
+  animation: shake 0.4s linear alternate;
+}
+
+@keyframes shake {
+
+  25%,
+  75% {
+    transform: translateX(50px);
+  }
+
+  50%,
+  100% {
+    transform: translateX(-50px);
+  }
+}
+
+#contact .rate-content {
+  background-color: #00002e75;
+  width: max-content;
+  padding: 2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: var(--sm-box-shadow);
+  border: 1px solid #000;
+  color: #ff004c;
+  font-weight: bolder;
+}
+
+form h1 {
+  color: #ff004c;
+  font-weight: bolder;
+}
+
+#contact {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
