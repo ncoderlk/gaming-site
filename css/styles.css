@@ -1171,3 +1171,21 @@ form h1 {
   margin-top: 10px;
   border: 2px solid #ff004c;
 }
+
+*,
+body,
+a,
+div {
+  scroll-behavior: smooth;
+}
+
+.rate-content {
+  margin-top: 50px;
+}
+
+#contact-title {
+  font-size: 30px;
+  color: #ff004c;
+  font-weight: bolder;
+  margin-bottom: 100px;
+}

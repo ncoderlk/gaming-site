@@ -1,4 +1,6 @@
 document.getElementById("contact").innerHTML = `
+<h1 id="contact-title">Contact Me</h1>
+<div class="g-ytsubscribe" data-channelid="UCn2CM862D3mvy5db4UsOcQQ" data-layout="full" data-count="default"></div>
 <div class="rate-content">
 <h1>Rate Us</h1>
 <span id="rate-mark">
