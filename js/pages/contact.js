@@ -21,11 +21,11 @@ document.getElementById("contact").innerHTML = `
 <button type="submit">Submit</button>
 </form>
 <div id="discord-status">
-<header><i class="fa-brands fa-discord"></i> Discord Server Status <button id="dis-btn" class="button">^</button></header>
-<div id="dis-content" class="hidden">
+<header id="hide-ds"><i class="fa-brands fa-discord"></i> Discord Server Status</header>
+<div id="dis-content">
 <div id="server-about"></div>
 <div id="users">
-<span>Online</span>
+<span>onine members</span>
 </div></div>
 <a href="https://discord.gg/4BCHMBEEtA" target="_blank"><button id="join-dis-btn">Join</button></a>
 </div>
@@ -106,9 +106,8 @@ function discordAPI() {
 
 discordAPI()
 
-const $$ = document.getElementById("dis-btn")
+const $$ = document.getElementById("hide-ds")
 
 $$.addEventListener("click", () => {
   document.getElementById("dis-content").classList.toggle("hidden")
-  $$.classList.toggle("button")
 })

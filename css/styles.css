@@ -1084,7 +1084,7 @@ form h1 {
 }
 
 #users span {
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 20px;
 }
 
@@ -1129,21 +1129,10 @@ form h1 {
   margin-top: 10px;
 }
 
-#discord-status header button {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-#discord-status header .button {
-  margin-left: 10px;
-  transform: rotate(180deg);
-  font-size: 20px;
-
-}
-
 #discord-status header {
+  cursor: pointer;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 300;
 }
 
 #discord-status header i {
