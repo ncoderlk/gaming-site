@@ -5,3 +5,4 @@ document.getElementById("home").innerHTML += (`
   <a href="https://www.youtube.com/embed/eM7ZTQHAXwg" target="_blank" class="venobox play-btn mb-4 mx-auto" data-vbtype="video" id="ply-btn" data-autoplay="true"></a>
   <a href="#about" class="about-btn">Explore</a>
 </div>`)
+
