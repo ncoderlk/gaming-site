@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&family=Silkscreen:wght@400;700&display=swap');
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -1176,6 +1177,7 @@ form h1 {
 body,
 a,
 div {
+  font-family: "Poppins";
   scroll-behavior: smooth;
 }
 
@@ -1188,4 +1190,87 @@ div {
   color: #ff004c;
   font-weight: bolder;
   margin-bottom: 100px;
+
+}
+
+
+#footer {
+  min-height: 70vh;
+}
+
+#footer div:first-child {
+  font-size: 30px;
+  padding-top: 100px;
+  font-weight: bolder;
+  color: #ff004c;
+  padding-bottom: 100px;
+}
+
+#footer div ul {
+  text-align: center;
+  clear: both;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.fa-youtube {
+  color: #f01;
+}
+
+.fa-facebook {
+  color: #00f;
+}
+
+.fa-twitter {
+  color: rgb(0, 140, 255);
+}
+
+ul li .fa-discord {
+  color: #fff;
+  background-color: rgb(55, 0, 255);
+  border-radius: 100%;
+  padding: 3px;
+  text-align: center;
+}
+
+.fa-twitch {
+  color: rgb(55, 0, 225);
+}
+
+li {
+  padding: 3px;
+  color: #999;
+  font-weight: bold;
+}
+
+ul li i {
+
+  margin-right: 10px;
+
+
+}
+
+.mail {
+  color: #00f;
+  font-size: 20px;
+  font-weight: bolder;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer span {
+  color: #ff004c;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#footer span a {
+  color: gold;
 }
