@@ -40,21 +40,21 @@ let height = 200
 
 const links = [
 
-  `<iframe height="${height}" src="${videoUrls[0].url}" title="${videoUrls[0].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[0].url}" title="${videoUrls[0].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[1].url}" title="${videoUrls[1].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[1].url}" title="${videoUrls[1].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[2].url}" title="${videoUrls[2].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[2].url}" title="${videoUrls[2].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[3].url}" title="${videoUrls[3].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[3].url}" title="${videoUrls[3].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[4].url}" title="${videoUrls[4].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[4].url}" title="${videoUrls[4].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[5].url}" title="${videoUrls[5].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[5].url}" title="${videoUrls[5].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[6].url}" title="${videoUrls[6].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  `<iframe height="${height}" src="${videoUrls[6].url}" title="${videoUrls[6].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 
-  `<iframe height="${height}" src="${videoUrls[7].url}" title="${videoUrls[7].description}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+  `<iframe height="${height}" src="${videoUrls[7].url}" title="${videoUrls[7].description}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
 ]
 async function vds() {
