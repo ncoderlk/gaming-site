@@ -68,10 +68,10 @@ function discordAPI() {
   })
     .then(res => {
       if (res.status != 200) {
-        console.log('discord widget dissconnect '.toUpperCase + res.status)
+        console.log('discord widget dissconnect error: ' + res.status)
       }
       else {
-        console.log('discord api connected '.toUpperCase() + res.status)
+        console.log('discord api connected ' + res.status)
       }
       res.json().then((data) => {
         let users = data.members
@@ -84,6 +84,9 @@ function discordAPI() {
             }
             else if (user.status === "idle") {
               status = `<i class="fa-solid fa-moon  ${user.status}"></i>`
+            }
+            else if (user.status === "dnd") {
+              status = `<i class="fa-solid fa-circle ${user.status}"></i>`
             }
             document.getElementById("server-about").innerHTML = `
             ${server}
@@ -103,6 +106,8 @@ function discordAPI() {
       if (err != null) {
         console.log(err)
       }
+    }).finally(() => {
+      console.log('Finished working on discord API'.toUpperCase())
     })
 }
 

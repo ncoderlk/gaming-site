@@ -1104,6 +1104,23 @@ form h1 {
   transform: translateY(30px) translateX(-10px);
 }
 
+#users .user i.dnd {
+  color: red;
+  font-size: 15px;
+  transform: translateY(30px) translateX(-10px);
+}
+
+#users .user i.dnd::after {
+  content: '';
+  background-color: #fff;
+  width: 8px;
+  height: 2px;
+  position: fixed;
+  z-index: 10;
+  transform: translateX(-11.5px) translateY(6.5px);
+
+}
+
 #users .user i.idle {
   color: #fffb00;
   font-size: 24px;
